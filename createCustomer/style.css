@@ -1,1 +1,32 @@
 /* css */
+.form {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+.form__line {
+  margin: 5px 0 0 5px;
+}
+.form__line > input {
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+.form__line > label {
+  min-width: 100px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 5px;
+}
+.form__btn {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  margin: 15px auto 0;
+  padding: 5px;
+  cursor: pointer;
+  display: block;
+}
+.form__btn:hover {
+  background-color: #eee;
+}
