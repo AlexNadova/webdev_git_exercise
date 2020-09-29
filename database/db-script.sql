@@ -1,5 +1,7 @@
 CREATE DATABASE git_exercise;
 
+USE git_exercise;
+
 CREATE TABLE customers (
   id int PRIMARY KEY AUTO_INCREMENT,
   fname nvarchar(20) NOT NULL,
